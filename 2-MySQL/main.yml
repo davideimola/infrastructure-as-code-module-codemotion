@@ -1,0 +1,7 @@
+---
+- hosts: databases
+  remote_user: root
+
+  roles:
+    - role: geerlingguy.mysql
+    - role: geerlingguy.phpmyadmin
