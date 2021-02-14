@@ -5,3 +5,4 @@
   roles:
     - role: geerlingguy.mysql
     - role: geerlingguy.phpmyadmin
+    - role: mysql
