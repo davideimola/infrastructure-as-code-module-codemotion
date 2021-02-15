@@ -1,1 +1,2 @@
 [databases]
+192.168.188.44 ansible_password=12345

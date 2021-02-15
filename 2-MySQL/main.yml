@@ -3,6 +3,7 @@
   remote_user: root
 
   roles:
-    - role: geerlingguy.mysql
-    - role: geerlingguy.phpmyadmin
-    - role: mysql
+    - role: geerlingguy.postgresql
+      become: yes
+      postgresql_locales:
+        - 'en_US.UTF-8'
